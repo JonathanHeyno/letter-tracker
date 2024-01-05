@@ -1,0 +1,9 @@
+{% if scanners %}
+    <ul>
+    {% for scanner in scanners %}
+        <li>{{ scanner.name }}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>HALOOO INDEKSISTA</p>
+{% endif %}
